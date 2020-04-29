@@ -23,7 +23,7 @@ Some projects with PySimpleGUI - All files here are all open source.
      - Sort Tag
      - MoveUp Tag
      - MoveDown Tag
-     
+   
    Functions on right side:
      - Import Files
      - Remove Selection

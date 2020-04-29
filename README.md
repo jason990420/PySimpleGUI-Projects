@@ -46,5 +46,6 @@ Some projects with PySimpleGUI - All files here are all open source.
 
 3. Bejeweled Game<br>
    - More than three jewels are lined up and can be deleted and scored.
+   - Pictures for Background and jewel are downloaded from web page, if not working, you can change the urls to replace new ones.
    
 ![picture](https://github.com/jason990420/PySimpleGUI-Projects/blob/master/pictures/Bejeweled%20Game.jpg)

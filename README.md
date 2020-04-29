@@ -43,3 +43,8 @@ Some projects with PySimpleGUI - All files here are all open source.
      - ** All files imported will be moved to a new directory D:/ALL and stored as their extension file name in seperate subdirectories.**
      
 ![picture](https://github.com/jason990420/PySimpleGUI-Projects/blob/master/pictures/File_Manager.jpg)
+
+3. Bejeweled Game<br>
+   - More than three jewels are lined up and can be deleted and scored.
+   
+![picture](https://github.com/jason990420/PySimpleGUI-Projects/blob/master/pictures/Bejeweled%20Game.jpg)

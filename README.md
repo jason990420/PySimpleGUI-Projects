@@ -24,11 +24,21 @@ Some projects with PySimpleGUI - All files here are all open source.
      - Sort Tag / 標籤排序
      - Tag MoveUp / 標籤上移
      - Tag MoveDown / 標籤下移
-     - Double Click for Selection / 標籤選擇
+     
    Functions on right side:
      - Import Files / 檔案移入
      - Selection Tag remove
     
+   Serach Files:
+     - Double Click tags on left side for Selection / 標籤選擇
+     - Use 'Search Tag' to find tag quickly
+   
+   Open File:
+     - Double Click file on right side to open file
+   
+   Files processing:
+     - Sorry, no file processing support now. You may copy files by yourself and don't delete files after you import them. edit is OK.
+     
    Here's one thing very important !!!
      - ** All files imported will be moved to a new directory D:/ALL and stored as their extension file name in seperate subdirectories.**
      

@@ -49,3 +49,9 @@ Some projects with PySimpleGUI - All files here are all open source.
    - Pictures for Background and jewel are downloaded from web page, if not working, you can change the urls to replace new ones.
    
 ![picture](https://github.com/jason990420/PySimpleGUI-Projects/blob/master/pictures/Bejeweled%20Game.jpg)
+
+4. Tetris Game<br>
+   - It is in simplex Chinese, should be OK.
+   - There're only 6 keys work, left, right, up (rotate), down, space (drop), ESC (pause)
+   
+![picture](https://github.com/jason990420/PySimpleGUI-Projects/blob/master/pictures/Tetris.jpg)

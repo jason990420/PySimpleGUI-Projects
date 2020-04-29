@@ -1,14 +1,14 @@
 # PySimpleGUI-Projects
 Some projects with PySimpleGUI - All files here are all open source.
 
-1. Document String for Python Library.pyw <br>
+## 1. Document String for Python Library.pyw <br>
    Import .py file or directory from Python package, and build tree list for each class and each function with document string.
    It help us to find what arguments to use in class or function quickly.
    If document string exists, there will be also document string shown for each class and each function.
    
 ![Screen Picture](https://github.com/jason990420/PySimpleGUI-Projects/blob/master/pictures/Document%20String%20for%20Python%20Library.jpg)
 
-2. File Manager<br>
+## 2. File Manager<br>
    We always get trouble to find where my files when files get more and more.
    Here, this script manage your files by tags and you can find your files in couple seconds.
    
@@ -43,13 +43,13 @@ Some projects with PySimpleGUI - All files here are all open source.
      
 ![picture](https://github.com/jason990420/PySimpleGUI-Projects/blob/master/pictures/File%20Management%20System.jpg)
 
-3. Bejeweled Game<br>
+## 3. Bejeweled Game<br>
    - More than three jewels are lined up and can be deleted and scored.
    - Pictures for Background and jewel are downloaded from web page, if not working, you can change the urls to replace new ones.
    
 ![picture](https://github.com/jason990420/PySimpleGUI-Projects/blob/master/pictures/Bejeweled%20Game.jpg)
 
-4. Tetris Game<br>
+## 4. Tetris Game<br>
    - There're only 6 keys work, left, right, up (rotate), down, space (drop), ESC (pause)
    
 ![picture](https://github.com/jason990420/PySimpleGUI-Projects/blob/master/pictures/tetris.jpg)

@@ -11,26 +11,25 @@ Some projects with PySimpleGUI - All files here are all open source.
 2. File Manager<br>
    We always get trouble to find where my files when files get more and more.
    Here, this script manage your files by tags and you can find your files in couple seconds.
-   Sorry, it is complex Chinese.
    
    Two areas shown in screen, one for tag new/edit/delete/selection and another one for file import/search/open.
    Functions on left side:
-     - New Tag / 新建標籤
-     - Select Root Tag / 選主標籤
-     - Delete Tag / 刪除標籤
-     - Rename Tag / 標籤改名
-     - Search Tag / 搜索標籤
-     - Next Tag / 找下一個
-     - Sort Tag / 標籤排序
-     - Tag MoveUp / 標籤上移
-     - Tag MoveDown / 標籤下移
+     - New Tag
+     - Root Tag
+     - Delete Tag
+     - Rename Tag
+     - Search Tag
+     - Next Tag
+     - Sort Tag
+     - MoveUp Tag
+     - MoveDown Tag
      
    Functions on right side:
-     - Import Files / 檔案移入
-     - Selection Tag remove
+     - Import Files
+     - Remove Selection
     
    Serach Files:
-     - Double Click tags on left side for Selection / 標籤選擇
+     - Double Click tags on left side for Selection
      - Use 'Search Tag' to find tag quickly
    
    Open File:
@@ -42,7 +41,7 @@ Some projects with PySimpleGUI - All files here are all open source.
    Here's one thing very important !!!
      - ** All files imported will be moved to a new directory D:/ALL and stored as their extension file name in seperate subdirectories.**
      
-![picture](https://github.com/jason990420/PySimpleGUI-Projects/blob/master/pictures/File_Manager.jpg)
+![picture](https://github.com/jason990420/PySimpleGUI-Projects/blob/master/pictures/File%20Management%20System.jpg)
 
 3. Bejeweled Game<br>
    - More than three jewels are lined up and can be deleted and scored.

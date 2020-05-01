@@ -4,7 +4,6 @@ from pathlib import Path
 from Tool import Read_File, Read_URL
 from PIL import Image
 from io import BytesIO
-from PIL import Image, ImageTk
 
 class GUI():
 

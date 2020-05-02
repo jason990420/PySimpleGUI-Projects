@@ -55,6 +55,6 @@ Some projects with PySimpleGUI - All files here are all open source.
 ![picture](https://github.com/jason990420/PySimpleGUI-Projects/blob/master/pictures/tetris.jpg)
 
 ## 5. Road moving in 3D
-   - Move forward in 3D, Trees not scaled for low speed.
+   - Move forward in 3D.
 
 ![picture](https://github.com/jason990420/PySimpleGUI-Projects/blob/master/pictures/Road_3D.jpg)

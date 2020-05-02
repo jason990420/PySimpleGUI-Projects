@@ -16,32 +16,34 @@ Some projects with PySimpleGUI - All files here are all open source.
    
    Two areas shown in screen, one for tag new/edit/delete/selection and another one for file import/search/open.
    Functions on left side:
-     - New Tag
-     - Root Tag
-     - Delete Tag
-     - Rename Tag
-     - Search Tag
-     - Next Tag
-     - Sort Tag
-     - MoveUp Tag
-     - MoveDown Tag
+   
+   - New Tag
+   - Root Tag
+   - Delete Tag
+   - Rename Tag
+   - Search Tag
+   - Next Tag
+   - Sort Tag
+   - MoveUp Tag
+   - MoveDown Tag
    
    Functions on right side:
-     - Import Files
-     - Remove Selection
+   
+   - Import Files
+   - Remove Selection
     
    Serach Files:
-     - Double Click tags on left side for Selection
-     - Use 'Search Tag' to find tag quickly
+   - Double Click tags on left side for Selection
+   - Use 'Search Tag' to find tag quickly
    
    Open File:
-     - Double Click file on right side to open file
+   - Double Click file on right side to open file
    
    Files processing:
-     - Sorry, no file processing support now. You may copy files by yourself and don't delete files after you import them. edit is OK.
+   - Sorry, no file processing support now. You may copy files by yourself and don't delete files after you import them. edit is OK.
      
    Here's one thing very important !!!
-     - ** All files imported will be moved to a new directory D:/ALL and stored as their extension file name in seperate subdirectories.**
+   - ** All files imported will be moved to a new directory D:/ALL and stored as their extension file name in seperate subdirectories.**
      
 ![picture](https://github.com/jason990420/PySimpleGUI-Projects/blob/master/pictures/File%20Management%20System.jpg)
 

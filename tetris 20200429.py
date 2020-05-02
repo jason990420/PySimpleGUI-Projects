@@ -197,6 +197,7 @@ def B(text, key):
     return sg.Button(text, font=G.font, size=(16, 1), key=key,
         bind_return_key=False, focus=False)
 
+
 G = Game()
 
 layout1 = [[T(str(i+j*G.width), color=G.background) for i in range(G.width)]

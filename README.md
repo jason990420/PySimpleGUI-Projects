@@ -6,6 +6,8 @@ Some projects with PySimpleGUI - All files here are all open source.
    It help us to find what arguments to use in class or function quickly.
    If document string exists, there will be also document string shown for each class and each function.
    
+   Right button of mouse to rename, delete or move tag when mouse on tag.
+   
 ![Screen Picture](https://github.com/jason990420/PySimpleGUI-Projects/blob/master/pictures/Document%20String%20for%20Python%20Library.jpg)
 
 ## 2. File Manager<br>

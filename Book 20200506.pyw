@@ -68,8 +68,8 @@ class GUI():
         return sg.Tree(data=self.treedata, headings=['Notes',], pad=(0, 0),
         show_expanded=False, col0_width=30, auto_size_columns=False,
         visible_column_map=[False,], select_mode=sg.TABLE_SELECT_MODE_BROWSE,
-        enable_events=True, background_color='white', font=self.font2,
-        num_rows=28, row_height=20, key=key)
+        enable_events=True, text_color='black', background_color='white',
+        font=self.font2, num_rows=28, row_height=20, key=key)
 
     def Input(self, key):
         return sg.Input('', font=self.font1, key=key, visible=False,

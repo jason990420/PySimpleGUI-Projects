@@ -76,8 +76,8 @@ class GUI():
             enable_events=True, do_not_clear=False, pad=((0, 5), 5))
 
     def Multiline(self, key):
-        return sg.Multiline(default_text='', enable_events=True, pad=((0, 5), 5),
-            size=(self.line_width, 31), do_not_clear=True,
+        return sg.Multiline(default_text='', enable_events=False, pad=((0, 5), 5),
+            size=(self.line_width, 31), do_not_clear=True, disabled=True,
             key=key, border_width=0, focus=False, font=self.font1,
             text_color='white', background_color='blue')
 

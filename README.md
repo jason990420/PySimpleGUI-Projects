@@ -5,14 +5,12 @@ Some projects with PySimpleGUI - All files here are all open source.
 [Tool.py](https://github.com/jason990420/jason990420-outlook.com/blob/master/Tool.py)
 
 
-## 1. Document String for Python Library.pyw <br>
+## 1. Book 20200506.pyw <br>
    Import .py file or directory from Python package, and build tree list for each class and each function with document string.
    It help us to find what arguments to use in class or function quickly.
    If document string exists, there will be also document string shown for each class and each function.
    
-   Right button of mouse to rename, delete or move tag when mouse on tag.
-   
-![Screen Picture](https://github.com/jason990420/PySimpleGUI-Projects/blob/master/pictures/Document%20String%20for%20Python%20Library.jpg)
+![Screen Picture](https://github.com/jason990420/PySimpleGUI-Projects/blob/master/pictures/Book%20Picture.jpg)
 
 ## 2. File Manager<br>
    We always get trouble to find where my files when files get more and more.

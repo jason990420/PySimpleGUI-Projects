@@ -38,15 +38,15 @@ class GUI():
 
     def __init__(self):
         self.font1 = ('Courier', 12, 'bold')
-        self.font2 = ('Courier', 10, 'bold')
+        self.font2 = ('Courier', 12, 'bold')
         self.button_size = 10
-        self.row_size = 40
-        self.line_width = 120
+        self.line_width = 100
         self.book = 'Book.json'
         self.treedata = sg.TreeData()
 
     def Layout(self):
-        return [[self.Browse_File('Load File'), self.Browse_Path('Load Path'),
+        return [[self.Input('Load File'), self.Browse_File('Load File'),
+                 self.Input('Load Path'), self.Browse_Path('Load Path'),
                  self.Button('Sort'),           self.Button('Rename'),
                  self.Button('Delete'),         self.Button('Move Up'),
                  self.Button('Move Down'),      self.Button('Quit')],
@@ -62,30 +62,33 @@ class GUI():
 
     def Button(self, key):
         return sg.Button(key, enable_events=True, size=(self.button_size, 1),
-            font=self.font1)
+            font=self.font1, pad=((0, 5), 5))
 
     def Tree(self, key):
         return sg.Tree(data=self.treedata, headings=['Notes',], pad=(0, 0),
         show_expanded=False, col0_width=30, auto_size_columns=False,
         visible_column_map=[False,], select_mode=sg.TABLE_SELECT_MODE_BROWSE,
         enable_events=True, background_color='white', font=self.font2,
-        num_rows=self.row_size, row_height=20, key=key)
+        num_rows=28, row_height=20, key=key)
+
+    def Input(self, key):
+        return sg.Input('', font=self.font1, key=key, visible=False,
+            enable_events=True, do_not_clear=False, pad=((0, 5), 5))
 
     def Multiline(self, key):
-        return sg.Multiline(default_text='', enable_events=True, pad=(0, 0),
-            size=(self.line_width, self.row_size), do_not_clear=True,
-            key=key, border_width=0, focus=False, font=self.font2,
+        return sg.Multiline(default_text='', enable_events=True, pad=((0, 5), 5),
+            size=(self.line_width, 31), do_not_clear=True,
+            key=key, border_width=0, focus=False, font=self.font1,
             text_color='white', background_color='blue')
 
     def Browse_File(self, key):
-        return sg.FileBrowse(button_text=key, target=key, key=key,
-            size=(self.button_size, 1), font=self.font1,
-            enable_events=True, file_types=(("ALL Python Files", "*.py"),))
+        return sg.FileBrowse(button_text=key, target=key, font=self.font1,
+            size=(self.button_size, 1), enable_events=True, pad=((0, 5), 5),
+            file_types=(("ALL Python Files", "*.py"),))
 
     def Browse_Path(self, key):
-        return sg.FolderBrowse(button_text=key, target=key, key=key,
-                size=(self.button_size, 1), font=self.font1, pad=(0, 0),
-                enable_events=True)
+        return sg.FolderBrowse(button_text=key, target=key, font=self.font1,
+                size=(self.button_size, 1), pad=((0, 5), 5), enable_events=True)
 
     def New_Key(self):
         """
@@ -327,7 +330,8 @@ class GUI():
             self.treedata.tree_dict[node.parent].children.remove(node)
             parent_node = self.treedata.tree_dict[nxt_node.parent]
             index = parent_node.children.index(nxt_node)
-            parent_node.children = parent_node.children[:index+1]+[node]+parent_node.children[index+1:]
+            parent_node.children = (parent_node.children[:index+1] +
+                [node] + parent_node.children[index+1:])
             node.parent = nxt_node.parent
         else:
             self.treedata.tree_dict[node.parent].children.remove(node)

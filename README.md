@@ -64,3 +64,6 @@ Some projects with PySimpleGUI - All files here are all open source.
    - Move forward in 3D.
 
 ![picture](https://github.com/jason990420/PySimpleGUI-Projects/blob/master/pictures/Road_3D.jpg)
+
+## 6. MP3 Player.py
+   - Search, dowload and play mp3

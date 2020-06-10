@@ -76,4 +76,5 @@ New shape of Button for PySimpleGUI
 provide a new function to replace origin class Button for PySimpleGUI.
 Issue left and no solution found for it
     Button disabled still a rectangle and bad looking !
-[New Shape Button](https://github.com/jason990420/PySimpleGUI-Projects/blob/master/pictures/New%20shape%20Button.jpg)
+    
+![New Shape Button](https://github.com/jason990420/PySimpleGUI-Projects/blob/master/pictures/New%20shape%20Button.jpg)

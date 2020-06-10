@@ -70,3 +70,10 @@ Some projects with PySimpleGUI - All files here are all open source.
 
 ## 6. MP3 Player.py
    - Search, dowload and play mp3
+   
+## 7. sg Image Button.py
+New shape of Button for PySimpleGUI
+provide a new function to replace origin class Button for PySimpleGUI.
+Issue left and no solution found for it
+    Button disabled still a rectangle and bad looking !
+[New Shape Button](https://github.com/jason990420/PySimpleGUI-Projects/blob/master/pictures/New%20shape%20Button.jpg)

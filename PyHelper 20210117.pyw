@@ -165,7 +165,7 @@ class GUI():
 
     def load_book(self):
         """
-        Read Book.json into treedata
+        Read Book.pkl into treedata
         """
         if not Path(self.book).is_file():
             return
@@ -175,7 +175,7 @@ class GUI():
 
     def save_book(self):
         """
-        Save treedata to Book.json
+        Save treedata to Book.pkl
         Dictionary pairs in key: [parent, children, text, values]
         """
         with open(self.book, 'wb') as f:

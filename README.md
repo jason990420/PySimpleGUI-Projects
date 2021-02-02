@@ -78,3 +78,7 @@ Issue left and no solution found for it
     Button disabled still a rectangle and bad looking !
     
 ![New Shape Button](https://github.com/jason990420/PySimpleGUI-Projects/blob/master/pictures/New%20shape%20Button.jpg)
+
+## 8. Binary Viewer.pyw
+View file in binary format
+![Binary Viewer](https://github.com/jason990420/PySimpleGUI-Projects/blob/master/pictures/Binary%20Viewer.jpg)

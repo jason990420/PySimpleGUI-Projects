@@ -116,10 +116,10 @@ def button(button_text='', kind='stadium', **kwargs):
 
     if 'button_color' in kwargs:
         color = kwargs['button_color'][1]
-        kwargs['button_color'] = [kwargs['button_color'][0], bg]
+        kwargs['button_color'] = (kwargs['button_color'][0], bg)
     else:
         color = 'blue'
-        kwargs['button_color'] = [sg.DEFAULT_BUTTON_COLOR[0], bg]
+        kwargs['button_color'] = (sg.DEFAULT_BUTTON_COLOR[0], bg)
 
     image_data = button_image(width, height, color, kind=kind)
     kwargs['image_data'] = image_data
